@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8f9be4-ba3b-4f6d-9fc2-02172c58c0d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/evgheny-shamu-600x450.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/varu-sandel-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/varu-sandel-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/varu-sandel-50x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/varu-sandel-640x640.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/verified.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-datetimepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/evgheny-shamu-50x50.jpeg" afterPath="$PROJECT_DIR$/img/evgheny-shamu-50x50.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/evgheny-shamu.jpg" afterPath="$PROJECT_DIR$/img/evgheny-shamu-100x100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-hands.html" afterPath="$PROJECT_DIR$/my-hands.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/overwrite.css" afterPath="$PROJECT_DIR$/css/overwrite.css" />
     </list>
     <ignored path="hand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -148,6 +166,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -564,17 +587,20 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0d8f9be4-ba3b-4f6d-9fc2-02172c58c0d1" name="Default" comment="" />
       <created>1427539436753</created>
       <updated>1427539436753</updated>
-      <workItem from="1427539438261" duration="7522000" />
+      <workItem from="1427539438261" duration="7737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7522000" />
+    <option name="totallyTimeSpent" value="7737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="728" extended-state="6" />
@@ -625,6 +651,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.css">
