@@ -109,6 +109,12 @@ img.img-polaroid {
 
 /* --- header -- */
 
+header
+{
+  border-bottom: 1px solid #c2c2c2;
+    box-shadow: 0 5px 3px #f7f7f7;
+    display: block;
+}
 
 header .navbar {
     margin-bottom: 0;

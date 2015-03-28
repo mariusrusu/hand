@@ -704,13 +704,18 @@ font-size: 10px;
   color:#fff;
 }
 .btn-green {
-  border:1px solid #479c18;
+  border:1px solid #60bf93;
   color:#fff;
-  background: #479c18;
+  background: #60bf93;
 }
 .btn-green:hover,.btn-green:focus,.btn-green:active  {
-  background: #3f8d15;
+  border:1px solid #e14f42;
+  background: #e14f42;
   color:#fff;
+}
+
+.box-bottom:hover,.box-bottom:focus,.box-bottom:active {
+    background: none repeat scroll 0 0 #e14f42;
 }
 
 .btn-brown {
@@ -1364,6 +1369,13 @@ font-weight:600;
           border-radius: 2px;
 }
 
+.container{
+  padding-top: 15px !important;
+}
+
+.navbar-header{
+  margin-top: 0px !important;
+}
 
 
 
