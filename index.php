@@ -11,6 +11,11 @@ if (file_exists("help_request.data"))
 }
 $user_data = array(
   array(
+    "name" => "Ionel",
+    "img" => "img/03.jpg",
+    "rating" => "rating-2.5stars.png"
+  ),
+  array(
     "name" => "Popescu Vasile",
     "img" => "img/Happy_Old_Man.jpg",
     "rating" => "rating-4stars.png"
@@ -24,11 +29,6 @@ $user_data = array(
     "name" => "Jon Doe",
     "img" => "img/02.jpg",
     "rating" => "rating-5stars.png"
-  ),
-  array(
-    "name" => "Ionel",
-    "img" => "img/03.jpg",
-    "rating" => "rating-2.5stars.png"
   ),
   array(
     "name" => "Popescu Vasile",
