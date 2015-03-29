@@ -1,5 +1,4 @@
 <?php
-$url = "http://localhost:8888/";
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
   if (file_exists("help_request.data"))
@@ -21,7 +20,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
       'phone' => $_POST['phone']);
 
     file_put_contents("help_request.data", json_encode($data));
-    $newURL = $url."index.php";
+    $newURL = "index.php";
     header('Location: ' . $newURL);
     die();
   }
@@ -71,8 +70,8 @@ else
                     <img src="img/handoutlogox.png" width="150px" /></a>
                 </div>
                 <div class="navbar-collapse collapse ">
-                
-                    <ul class="nav navbar-nav">
+
+                    <ul class="nav navbar-nav" style="padding-top: 20px;">
                         <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="my-hands.html">My Hands</a></li>
                         <li><a href="profile.html">My Profile</a></li>
