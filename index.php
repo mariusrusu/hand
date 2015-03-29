@@ -39,7 +39,7 @@
                 </div>
                 <div class="navbar-collapse collapse ">
                 
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav" style="padding-top: 20px;">
                         <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="my-hands.html">My Hands</a></li>
                         <li><a href="profile.html">My Profile</a></li>
@@ -72,7 +72,7 @@
         <div class="row" style="margin-bottom: 15px; margin-top: 15px;">
             <div class="col-lg-12">
                 <div class="big-cta">
-                   <div class="box-bottom col-lg-22">
+                   <div class="box-bottom col-lg-2" style="min-width: 200px;">
                       <a href="add.html">Find A Hand</a>
                    </div>
 
