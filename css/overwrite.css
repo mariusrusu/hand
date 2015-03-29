@@ -1384,7 +1384,9 @@ font-weight:600;
   background: none repeat scroll 0 0 #e14f42 !important;
 }
 
-
+.donate a{
+  color: #e14f42 !important;
+}
 
 
 
