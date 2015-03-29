@@ -6,36 +6,44 @@ if (file_exists("help_request.data"))
   if (strlen($file_content))
   {
     $data = json_decode($file_content, true);
+    krsort($data);
   }
 }
 $user_data = array(
   array(
     "name" => "Popescu Vasile",
-    "img" => "img/Happy_Old_Man.jpg"
+    "img" => "img/Happy_Old_Man.jpg",
+    "rating" => "rating-4stars.png"
   ),
   array(
     "name" => "Bryan",
-    "img" => "img/01.jpg"
+    "img" => "img/01.jpg",
+    "rating" => "rating-5stars.png"
   ),
   array(
     "name" => "Jon Doe",
-    "img" => "img/02.jpg"
+    "img" => "img/02.jpg",
+    "rating" => "rating-5stars.png"
   ),
   array(
     "name" => "Ionel",
-    "img" => "img/03.jpg"
+    "img" => "img/03.jpg",
+    "rating" => "rating-3stars.png"
   ),
   array(
     "name" => "Popescu Vasile",
-    "img" => "img/Happy_Old_Man.jpg"
+    "img" => "img/Happy_Old_Man.jpg",
+    "rating" => "rating-4stars.png"
   ),
   array(
     "name" => "Bryan",
-    "img" => "img/01.jpg"
+    "img" => "img/01.jpg",
+    "rating" => "rating-5stars.png"
   ),
   array(
     "name" => "Jon Doe",
-    "img" => "img/02.jpg"
+    "img" => "img/02.jpg",
+    "rating" => "rating-5stars.png"
   )
 );
 ?>
@@ -53,7 +61,6 @@ $user_data = array(
   <link href="css/jcarousel.css" rel="stylesheet" />
   <link href="css/flexslider.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet" />
-
 
   <!-- Theme skin -->
   <link href="skins/default.css" rel="stylesheet" />
@@ -131,7 +138,7 @@ $user_data = array(
       <div class="row box-gray">
         <div class="col-lg-2">
           <img src="<?php echo $user_data[$key]['img'] ?>"/>
-          <img src="img/rating-4stars.png"/>
+          <img src="img/<?php echo $user_data[$key]['rating'] ?>" ?>/>
         </div>
         <div class="col-lg-8">
           <h5>Name: <?php echo $user_data[$key]['name'] ?></h5>
