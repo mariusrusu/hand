@@ -83,7 +83,7 @@ else
   <!-- end header -->
 
   <div class="container">
-    <div class="alert alert-warning">Do not share informations. Keep shorts.</div>
+    <div class="alert alert-warning" style="margin-top: 10px;">Don't share any personal info ( phone number, address, full name). Once your request will be answered, we will send all the useful info for contact.</div>
 
     <form id="form" class="form-horizontal" action="add.php" method="POST" style="width: 400px">
       <div class="form-group">
