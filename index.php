@@ -72,7 +72,7 @@
         <div class="row" style="margin-bottom: 15px; margin-top: 15px;">
             <div class="col-lg-12">
                 <div class="big-cta">
-                   <div class="box-bottom col-lg-22" style="min-width: 200px;">
+                   <div class="box-bottom col-lg-2" style="min-width: 200px;">
                       <a href="add.html">Find A Hand</a>
                    </div>
 
