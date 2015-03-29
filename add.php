@@ -75,6 +75,7 @@ else
                         <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="my-hands.html">My Hands</a></li>
                         <li><a href="profile.html">My Profile</a></li>
+                        <li class="donate"><a href="index.php">Donate</a></li>
                     </ul>
                 </div>
             </div>
