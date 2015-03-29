@@ -28,7 +28,7 @@ $user_data = array(
   array(
     "name" => "Ionel",
     "img" => "img/03.jpg",
-    "rating" => "rating-3stars.png"
+    "rating" => "rating-2.5stars.png"
   ),
   array(
     "name" => "Popescu Vasile",
@@ -139,7 +139,7 @@ $user_data = array(
       <div class="row box-gray">
         <div class="col-lg-2">
           <img src="<?php echo $user_data[$key]['img'] ?>"/>
-          <img src="img/<?php echo $user_data[$key]['rating'] ?>" ?>/>
+          <img src="img/<?php echo $user_data[$key]['rating'] ?>" />
         </div>
         <div class="col-lg-8">
           <h5>Name: <?php echo $user_data[$key]['name'] ?></h5>
