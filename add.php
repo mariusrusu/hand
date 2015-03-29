@@ -67,13 +67,13 @@ else
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><span>
+                    <a class="navbar-brand" href="index.php"><span>
                     <img src="img/handoutlogox.png" width="150px" /></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                 
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="my-hands.html">My Hands</a></li>
                         <li><a href="profile.html">My Profile</a></li>
                     </ul>
